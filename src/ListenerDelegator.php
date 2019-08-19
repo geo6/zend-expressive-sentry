@@ -1,8 +1,8 @@
 <?php
 
-namespace Geo6\Sentry;
+namespace Geo6\Expressive\Sentry;
 
-use Geo6\Sentry\Listener\Listener;
+use Geo6\Expressive\Sentry\Listener\Listener;
 use Interop\Container\ContainerInterface;
 use Zend\ServiceManager\Factory\DelegatorFactoryInterface;
 

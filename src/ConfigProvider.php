@@ -1,6 +1,6 @@
 <?php
 
-namespace Geo6\Sentry;
+namespace Geo6\Expressive\Sentry;
 
 use Zend\Stratigility\Middleware\ErrorHandler;
 

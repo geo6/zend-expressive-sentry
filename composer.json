@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Geo6\\Sentry\\": "src/"
+            "Geo6\\Expressive\\Sentry\\": "src/"
         }
     },
     "scripts": {

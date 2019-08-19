@@ -25,7 +25,7 @@ return [
 
 ## Usage
 
-To enable it, you just have to add `Geo6\Sentry\ConfigProvider::class` to your main configuration (usually `config/config.php`):
+To enable it, you just have to add `Geo6\Expressive\Sentry\ConfigProvider::class` to your main configuration (usually `config/config.php`):
 
 ```diff
 <?php
@@ -43,7 +43,7 @@ $cacheConfig = [
 ];
 
 $aggregator = new ConfigAggregator([
-+     Geo6\Sentry\ConfigProvider::class,
++     Geo6\Expressive\Sentry\ConfigProvider::class,
 
     // Include cache configuration
     new ArrayProvider($cacheConfig),
