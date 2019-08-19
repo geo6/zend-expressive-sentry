@@ -1,7 +1,7 @@
 {
     "name": "geo6/zend-expressive-sentry",
     "type": "library",
-    "description": "",
+    "description": "Zend Expressive ErrorHandler able to send error to Sentry.io",
     "license": "GPL-3.0-or-later",
     "require": {
         "sentry/sdk": "^2.0",
