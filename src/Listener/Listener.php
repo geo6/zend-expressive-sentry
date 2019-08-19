@@ -4,12 +4,11 @@ namespace Geo6\Sentry\Listener;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Sentry\State\Scope;
-use Throwable;
-
-use function Sentry\init;
 use function Sentry\captureException;
+use function Sentry\init;
+use Sentry\State\Scope;
 use function Sentry\withScope;
+use Throwable;
 
 class Listener
 {
