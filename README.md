@@ -9,7 +9,7 @@ This library enables Zend Expressive to send errors and exceptions to [Sentry.io
 
 ## Configuration
 
-Create a `sentry.global.php` file in your `config` directory:
+Create a `sentry.global.php` file in your `config` directory with your correct DSN (and options, if necessary):
 
 ```php
 <?php
@@ -18,7 +18,7 @@ declare(strict_types=1);
 
 return [
     'sentry' => [
-        'dsn' => 'https://0fd462c09bcb47449b4f47e01440a9d5@sentry.io/1532400',
+        'dsn' => 'https://xxxxx@sentry.io/12345',
     ],
 ];
 ```
