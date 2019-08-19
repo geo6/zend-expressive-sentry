@@ -43,7 +43,7 @@ $cacheConfig = [
 ];
 
 $aggregator = new ConfigAggregator([
-+     App\Sentry\ConfigProvider::class,
++     Geo6\Sentry\ConfigProvider::class,
 
     // Include cache configuration
     new ArrayProvider($cacheConfig),
