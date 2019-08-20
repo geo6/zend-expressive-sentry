@@ -7,6 +7,12 @@
 
 This library enables Zend Expressive to send errors and exceptions to [Sentry.io](https://sentry.io/).
 
+## Install
+
+```
+composer require geo6/zend-expressive-sentry
+```
+
 ## Configuration
 
 Create a `sentry.global.php` file in your `config` directory with your correct DSN (and options, if necessary):
